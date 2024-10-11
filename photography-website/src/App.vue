@@ -1,13 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <div>Actual Hello World</div>
+  <SplashPage></SplashPage>
+  <GalleryLink />
 </template>
 
 <script>
+import SplashPage from "./components/SplashPage.vue";
+import GalleryLink from "./components/GalleryLink.vue";
 
 export default {
-  name: 'App',
-}
+  name: "App",
+  components: {
+    SplashPage,
+    GalleryLink,
+  },
+};
 </script>
 
 <style>
