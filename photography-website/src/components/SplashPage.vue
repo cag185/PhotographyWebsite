@@ -1,7 +1,13 @@
 <template>
   <div class="flex flex-col justify-center w-full space-y-3">
-    <div class="flex font-semibold self-center text-3xl" name="large-heading">
-      Hello! My Name is Caleb Gibson and this is my Photography Website!
+    <div class="flex w-full justify-center relative">
+      <div
+        class="flex w-1/2 z-1 text-black font-semibold text-left pl-4 text-3xl text-pretty"
+        name="large-heading"
+      >
+        Hello! My Name is Caleb Gibson and this is my Photography Website!
+      </div>
+      <img class="flex justify-center w-full" src="../assets/Me-wide-2.png" />
     </div>
     <div
       class="flex font-normal self-center text-medium w-3/4"
@@ -14,4 +20,4 @@
   </div>
 </template>
 
-<script></script>
+<script setup></script>

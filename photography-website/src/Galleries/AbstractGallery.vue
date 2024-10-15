@@ -2,8 +2,12 @@
   <div class="font-bold text-3xl">{{ props.name }}</div>
 </template>
 
-<script>
+<script setup>
+import { defineProps } from "vue";
 const props = defineProps({
-  name: String,
+  name: {
+    type: String,
+    required: true,
+  },
 });
 </script>

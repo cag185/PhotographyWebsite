@@ -1,9 +1,9 @@
 <template>
   <div>
-    <AbstractGallery name="Link 1">Link 1</AbstractGallery>
+    <AbstractGallery name="Link 1"></AbstractGallery>
   </div>
 </template>
 
-<script>
+<script setup>
 import AbstractGallery from "@/Galleries/AbstractGallery.vue";
 </script>
