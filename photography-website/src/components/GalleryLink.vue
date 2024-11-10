@@ -1,9 +1,18 @@
 <template>
-  <div>
-    <AbstractGallery name="Link 1"></AbstractGallery>
-  </div>
+  <RouterLink to="/${props.link}">Go to ${props.linkName}</RouterLink>
 </template>
 
 <script setup>
-import AbstractGallery from "@/Galleries/AbstractGallery.vue";
+import { defineProps } from "vue";
+
+const props = defineProps({
+  linkName: {
+    type: String,
+    required: true,
+  },
+  link: {
+    type: String,
+    required: true,
+  },
+});
 </script>
