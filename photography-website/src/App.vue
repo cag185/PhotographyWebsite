@@ -1,7 +1,9 @@
 <template>
   <div>
-    <RouterLink to="/">Home </RouterLink>
-    <RouterLink to="/portraits">Portraits </RouterLink>
+    <RouterLink class="router-link-style" to="/">Home </RouterLink>
+    <RouterLink class="router-link-style" to="/portraits"
+      >Portraits
+    </RouterLink>
   </div>
   <main>
     <RouterView />
@@ -10,15 +12,11 @@
 
 <script>
 import SplashPage from "./components/SplashPage.vue";
-import GalleryLink from "./components/GalleryLink.vue";
-import PortraitGallery from "./Galleries/PortraitGallery.vue";
 
 export default {
   name: "App",
   components: {
     SplashPage,
-    GalleryLink,
-    PortraitGallery,
   },
 };
 </script>

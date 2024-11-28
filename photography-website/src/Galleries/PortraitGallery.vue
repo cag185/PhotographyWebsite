@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-2 pt-2">
-    <AbstractGallery name="Portraits"></AbstractGallery>
+    <AbstractGallery name="Portraits" folder="Portraits"></AbstractGallery>
   </div>
 </template>
 

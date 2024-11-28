@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center w-full space-y-3">
+  <div class="flex flex-col justify-center w-full space-y-3 py-2">
     <div class="flex w-full justify-center relative">
       <div
         class="absolute flex w-1/2 bottom-4 left-1 text-white font-semibold text-3xl text-pretty"
@@ -14,7 +14,7 @@
       />
     </div>
     <div
-      class="flex font-normal self-center text-xl w-3/4"
+      class="flex font-normal self-center lg:text-3xl lg:w-1/2 text-xl w-3/4"
       name="about-details"
     >
       I have been interested in Photography for about 5 years now, and mostly
