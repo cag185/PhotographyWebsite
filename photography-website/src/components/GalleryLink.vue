@@ -1,5 +1,9 @@
 <template>
-  <RouterLink to="/${props.link}">Go to ${props.linkName}</RouterLink>
+  <div class="button">
+    <RouterLink class="text-black" to="/${props.link}"
+      >Go to {{ props.linkName }}</RouterLink
+    >
+  </div>
 </template>
 
 <script setup>
