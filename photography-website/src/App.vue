@@ -4,6 +4,8 @@
     <RouterLink class="router-link-style" to="/portraits"
       >Portraits
     </RouterLink>
+    <RouterLink class="router-link-style" to="/sofia">Sofia</RouterLink>
+    <RouterLink class="router-link-style" to="/mom">Mom</RouterLink>
   </div>
   <main>
     <RouterView />
