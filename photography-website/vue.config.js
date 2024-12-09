@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
 
   // publicPath configuration for GitHub Pages
-  publicPath: process.env.NODE_ENV === 'production' ? '/PhotographyWebsite' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/photography-website/' : '/',
 
 })

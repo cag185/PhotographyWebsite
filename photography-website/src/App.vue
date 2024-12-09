@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="py-10 my-4 flex flex-row justify-center gap-x-2 bg-red-400">
     <RouterLink class="router-link-style" to="/">Home </RouterLink>
     <RouterLink class="router-link-style" to="/portraits"
       >Portraits
